@@ -1,0 +1,68 @@
+.container{
+    width: 890px;
+    margin: 0 auto;
+    align-self: center;
+    background-image: linear-gradient(#fff, #000);
+    transition: all 3s ease-in-out;
+}
+.ok{
+    height: 241px;
+    border: 2px solid red;
+    position: relative;
+}
+.back{
+    width: 440px;
+    z-index: -1;
+    padding-top: 80px;
+    float: left;
+}
+.back1{
+    width: 440px;
+    z-index: -1;
+    padding-top: 80px;
+    float: left;
+}
+.tak{
+    position: absolute;
+    width: 250px;
+    right: 0;
+    top: 120px;
+    animation: trip 10s 1;
+}
+
+@keyframes trip{
+    0%{
+        transform:translate(0px,0px)
+    }
+     25%{
+        transform: translate(-100px, 0);
+    }
+    100%{
+        transform: translate(-600px, 0);
+    }
+}
+.patron{
+    position: absolute;
+    width: 40px;
+    right: 100px;
+    top: 135px;
+    animation: tripp 3s 1;
+
+}
+@keyframes tripp{
+    0%{
+        transform:translate(0px,0px)
+    }
+     15%{
+        transform: translate(-20px, 0);
+    }
+    20%{
+        transform: translate(-40px, 0);
+    }
+    25%{
+        transform: translate(-100px, 0);
+    }
+    100%{
+        transform: translate(-1000px, 0);
+    }
+}
